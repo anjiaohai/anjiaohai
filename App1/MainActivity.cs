@@ -12,7 +12,8 @@ namespace App1
     {
 
 
-
+        Button BtnSen1;
+        Button BtnServer1;
         Button BtnSen;
         Button BtnServer;
         protected override void OnCreate(Bundle savedInstanceState)
