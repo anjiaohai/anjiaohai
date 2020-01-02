@@ -11,6 +11,8 @@ namespace App1
     public class MainActivity : AppCompatActivity
     {
 
+
+
         Button BtnSen;
         Button BtnServer;
         protected override void OnCreate(Bundle savedInstanceState)

@@ -17,6 +17,9 @@ namespace App1
     [Activity(Label = "Send")]
     public class SendActivity : Activity
     {
+
+
+
         IConnection Connection;
         private static String EXCHANGE_NAME = "test_exchange_fanout";
         protected override void OnCreate(Bundle savedInstanceState)

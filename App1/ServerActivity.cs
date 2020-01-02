@@ -21,6 +21,9 @@ namespace App1
 
 
 
+
+
+
         Button BtnText;
         private static String QUEUE_NAME = "test_queue_work2";
         private static String EXCHANGE_NAME = "test_exchange_fanout";

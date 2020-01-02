@@ -13,6 +13,8 @@ namespace WindowsFormsApp1
         {
             try
             {
+
+
                 ConnectionFactory TempConFac = new ConnectionFactory();
                 TempConFac.UserName = TempUserName;//某个vhost下的用户
                 TempConFac.Password = TempUserPassWord;//MQ密码

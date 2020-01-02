@@ -18,6 +18,8 @@ namespace App1
     [Activity(Label = "ServerActivity2")]
     public class ServerActivity2 : Activity
     {
+
+
         Button BtnText;
         private static String QUEUE_NAME = "test_queue_work2";
         private static String EXCHANGE_NAME = "test_exchange_fanout";
