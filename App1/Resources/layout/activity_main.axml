@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<Button
+		android:text="跳转至生产者"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/button1" />
+
+	<Button
+		android:text="跳转至消费者"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/button1"
+	    android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/button2" />
+
+	<Button
+		android:text="跳转至消费者2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/button2"
+	    android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/button3" />
+
+	
+
+</RelativeLayout>
